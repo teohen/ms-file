@@ -7,6 +7,12 @@
 *.dll
 *.so
 *.dylib
+./bin/*
+data/*
+
+!data/.gitkeep
+
+
 
 # Test binary, built with `go test -c`
 *.test
